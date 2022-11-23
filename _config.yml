@@ -30,10 +30,8 @@ _options:
     strike: true
     image: true
     
-<!-- This creates the array -->
 page_blocks: []
 
-<!-- This defines the structure of the array & the fields of each block -->
 _array_structures:
   page_blocks:
       - label: Image Banner
