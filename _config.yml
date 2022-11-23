@@ -85,21 +85,21 @@ _array_structures:
         _id: gallery
         title: Flexible Columns
         gallery-images: 
-        
-    gallery-images:
-      label: Gallery Images
-      icon: collections
-      value:
-        column-size: 1
-        aspect-ratio: square
-        image-path: /assets/images/placeholder.jpg
-    columns:
-      label: Gallery Images
-      icon: collections
-      value:
-        background-image: 
-        aspect-ratio: 
-        content_html:
+
+  gallery-images:
+    label: Gallery Images
+    icon: collections
+    value:
+      column-size: 1
+      aspect-ratio: square
+      image-path: /assets/images/placeholder.jpg
+  columns:
+    label: Gallery Images
+    icon: collections
+    value:
+      background-image: 
+      aspect-ratio: 
+      content_html:
         
 
 _select_data:
