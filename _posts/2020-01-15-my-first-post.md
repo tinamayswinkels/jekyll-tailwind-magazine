@@ -44,6 +44,24 @@ page_blocks:
       - background-image: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
         aspect-ratio: square
         content_html:
+  - _id: gallery
+    title: Gallery
+    gallery-images:
+      - column-size: 1
+        aspect-ratio: square
+        image-path: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
+      - column-size: 1
+        aspect-ratio: square
+        image-path: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
+      - column-size: 1
+        aspect-ratio: square
+        image-path: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
+      - column-size: 1
+        aspect-ratio: square
+        image-path: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
+      - column-size: 1
+        aspect-ratio: square
+        image-path: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
 seo:
   title:
   description:
