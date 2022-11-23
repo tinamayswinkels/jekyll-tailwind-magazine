@@ -132,6 +132,4 @@ _select_data:
    - btn-dark
    - btn-featured
   cta-shortcode: 
-    type: select
-    options:
-      values: data.cta
+    values: data.cta
