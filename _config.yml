@@ -42,7 +42,7 @@ _array_structures:
     - label: Image Banner
       icon: image
       value:
-        _id: img-banner
+        _id: banner
         title: Image Banner
         heading: This is your heading
         sub-heading: And this is your sub-heading
