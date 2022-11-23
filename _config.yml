@@ -6,6 +6,10 @@ collections:
     output: true
     permalink: /:title
 
+
+data_config: true
+
+
 _options:
   content:
     styles: /editor.css
