@@ -85,20 +85,20 @@ _array_structures:
         _id: gallery
         title: Flexible Columns
         gallery-images: 
-      gallery-images:
-        label: Gallery Images
-        icon: collections
-        value:
-          column-size: 1
-          aspect-ratio: square
-          image-path: /assets/images/placeholder.jpg
-      columns:
-        label: Gallery Images
-        icon: collections
-        value:
-          background-image: 
-          aspect-ratio: 
-          content_html:
+    gallery-images:
+      label: Gallery Images
+      icon: collections
+      value:
+        column-size: 1
+        aspect-ratio: square
+        image-path: /assets/images/placeholder.jpg
+    columns:
+      label: Gallery Images
+      icon: collections
+      value:
+        background-image: 
+        aspect-ratio: 
+        content_html:
         
 
 _select_data:
@@ -128,9 +128,35 @@ _select_data:
     - text-dark
     - text-featured
   button-colors: 
-   - btn-light
-   - btn-dark
-   - btn-featured
+    - btn-light
+    - btn-dark
+    - btn-featured
+  number-of-columns-mobile: 
+    - 1
+    - 2
+    - 3
+  number-of-columns-dekstop:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+  aspect-ratios:
+    portrait: aspect-portrait
+    square: aspect-square
+    landscape: aspect-landscape
+  column-size: 
+    col-span-1: 1
+    md/:col-span-2: 2
+    md/:col-span-3: 3
+    md/:col-span-4: 4
+
+  
+
+
+
+
+  
 
 _inputs:
   cta-shortcode: 
