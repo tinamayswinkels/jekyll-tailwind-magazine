@@ -5,8 +5,8 @@ collections:
   archives: 
     output: true
     permalink: /:title
-    
-    
+
+
 _options:
   content:
     styles: /editor.css
@@ -125,14 +125,3 @@ _select_data:
    - btn-light
    - btn-dark
    - btn-featured
-  cta-shortcode: site.data.cta
-  number-of-columns-mobile:
-  number-of-columns-dekstop:
-  columns: 
-    background-image: 
-    aspect-ratio: 
-    content_html:
-  gallery-images:
-    column-size: 
-    aspect-ratio:
-    image-path: 
