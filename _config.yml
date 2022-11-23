@@ -7,7 +7,9 @@ collections:
     permalink: /:title
 
 
-data_config: true
+data_config: 
+  cta:
+    path: data/cta.yml
 
 
 _options:
@@ -57,9 +59,6 @@ _array_structures:
         text-color: 
         button-color: 
         cta-shortcode:
-          type: select
-          options:
-            values: data.cta
     - label: CTA
       icon: image
       value:
@@ -132,3 +131,7 @@ _select_data:
    - btn-light
    - btn-dark
    - btn-featured
+   cta-shortcode: 
+      type: select
+      options:
+          values: data.cta
