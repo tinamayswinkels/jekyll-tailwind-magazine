@@ -56,7 +56,7 @@ _array_structures:
         background-color: 
         text-color: 
         button-color: 
-        cta-shortcode:
+        cta-shortcode: _select_data.cta-shortcode
     - label: CTA
       icon: image
       value:
