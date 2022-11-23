@@ -85,6 +85,7 @@ _array_structures:
         _id: gallery
         title: Flexible Columns
         gallery-images: 
+        
     gallery-images:
       label: Gallery Images
       icon: collections
@@ -150,11 +151,6 @@ _select_data:
     md/:col-span-2: 2
     md/:col-span-3: 3
     md/:col-span-4: 4
-
-  
-
-
-
 
   
 
