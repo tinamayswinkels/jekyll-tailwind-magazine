@@ -22,7 +22,8 @@ seo:
         {% for post in featured_posts limit:12 %}
 
             <a class="post-item p-2 break-inside-avoid block mb-4" href="{{ post.url }}">
-                <div class="bg-cover {% cycle 'aspect-square', 'aspect-portrait', 'aspect-landscape', %}" style="background-image:url( '{{ post.featured_image }}' );"></div>
+                <div class="bg-cover {% cycle 'aspect-square', 'aspect-portrait', 'aspect-landscape', %}" 
+                style="background-image:url( '{{ post.featured_image }}' );"></div>
                 <div class="p-4 relative -top-4 left-4 bg-white">
                     
                     <p class="uppercase text-zinc-600 text-xs tracking-wide">
@@ -32,7 +33,9 @@ seo:
                     </p>
                     <h2 class="mt-1 font-serif text-3xl"> {{ post.title }} </h2>
                     <hr class="border-rose-600 w-10 border-t-2 mt-4 mb-2"> 
-                    <p class="uppercase text-zinc-600 text-xs tracking-wide"> <span class="font-bold mr-1">{{ post.author }}</span> {{ post.date | date_to_string }} </p>
+                    <p class="uppercase text-zinc-600 text-xs tracking-wide"> 
+                        <span class="font-bold mr-1">{{ post.author }}</span> {{ post.date | date_to_string }} 
+                    </p>
 
                 </div>
             </a>

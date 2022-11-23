@@ -6,15 +6,15 @@ layout: default
 <section class="padded capped-width-narrow blog-content">
 
 
-    <div class="intro padded-1 center margin-b-2">
+    <div class="intro pt-6 p-4 text-center margin-b-2 max-w-screen-lg mx-auto">
 
         {% for item in page.categories %}
-            <span class="tag"> {{ item }}</span>
+            <span class="text-sm uppercase tracking-wide p-1 text-zinc-600"> {{ item }}</span>
         {% endfor %}
         
-        <h1> {{ page.title }} </h1>
+        <h1 class="text-6xl font-serif mt-4 mb-8"> {{ page.title }} </h1>
         
-        <p class="post-info"> by {{ page.author }} | {{ page.date | date_to_string }} </p>
+        <p class="text-sm uppercase tracking-wide text-zinc-600"> by <span class="font-bold"> {{ page.author }}  </span>| {{ page.date | date_to_string }} </p>
      
     </div>
     

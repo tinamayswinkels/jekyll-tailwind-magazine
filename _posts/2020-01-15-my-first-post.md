@@ -15,40 +15,41 @@ page_blocks:
     title: Image Banner
     heading: This is your heading
     sub-heading: And this is your sub-heading
+    text-color: text-light
     banner-height: min-h-60
-    banner-image: /assets/images/placeholder.jpg
+    banner-image: https://source.unsplash.com/random?sig=7
     background-position: bg-center
     text-position: items-center
   - _id: cta
     title: CTA
     background-color: bg-dark
-    text-color: text-featured
+    text-color: text-light
     button-color: btn-dark
-    heading: This is a heading
+    heading: Join our free community for photographers
     button-url: https://google.com
-    button-text: Click Me
+    button-text: Register Now
   - _id: flexible-columns
     title: Flexible Columns
     section-styles:
     number-of-columns-mobile:
-      - '1'
-    number-of-columns-dekstop:
-      - '3'
+      - 'grid-cols-1'
+    number-of-columns-desktop:
+      - 'grid-cols-3'
     columns:
-      - background-image: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
-        aspect-ratio: square
+      - background-image: https://source.unsplash.com/random?sig=7
+        aspect-ratio: aspect-square
         content_html:
       - background-image:
         aspect-ratio:
         content_html: <p>This is some text</p>
-      - background-image: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
-        aspect-ratio: square
+      - background-image: https://source.unsplash.com/random?sig=7
+        aspect-ratio: aspect-square
         content_html:
   - _id: gallery
     title: Gallery
     gallery-images:
       - column-size: 1
-        aspect-ratio: square
+        aspect-ratio: aspect-square
         image-path: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
       - column-size: 1
         aspect-ratio: square
