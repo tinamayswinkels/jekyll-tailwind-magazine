@@ -102,32 +102,32 @@ _array_structures:
         
 
 _select_data:
-  banner-height:
+  banner-heights:
     - min-h-60
     - min-h-70
     - min-h-80
     - min-h-90
     - min-h-100
-  background-position:
+  background-positions:
     - bg-bottom
     - bg-center
     - bg-left
     - bg-right
     - bg-top
-  text-position: 
+  text-positions: 
     items-start: top
     items-center: middle
     items-end: bottom
-  background-color: 
+  background-colors: 
     - bg-light
     - bg-featured
     - bg-dark
     - none
-  text-color: 
+  text-colors: 
     - text-light
     - text-dark
     - text-featured
-  button-color: 
+  button-colors: 
    - btn-light
    - btn-dark
    - btn-featured
