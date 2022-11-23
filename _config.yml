@@ -56,7 +56,7 @@ _array_structures:
         background-color: 
         text-color: 
         button-color: 
-        cta-shortcode: site.data.cta.yml
+        cta-shortcode:
     - label: CTA
       icon: image
       value:
@@ -97,6 +97,10 @@ _array_structures:
           background-image: 
           aspect-ratio: 
           content_html:
+  cta-shortcode:
+    label: selected cta
+    icon: collection
+    value: site.data.cta
         
 
 _select_data:
