@@ -11,7 +11,7 @@ categories:
   - life
 featured_image: https://source.unsplash.com/random?sig=7
 page_blocks:
-  - _id: img-banner
+  - _id: banner
     title: Image Banner
     heading: This is your heading
     sub-heading: And this is your sub-heading
