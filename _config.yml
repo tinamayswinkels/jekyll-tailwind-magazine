@@ -72,13 +72,13 @@ _array_structures:
           section-styles: 
           number-of-columns-mobile:
           number-of-columns-dekstop:
-          columns: []
+          columns:
       - label: Gallery
           icon: image
           value:
             _id: gallery
             title: Flexible Columns
-            gallery-images: []
+            gallery-images: 
       gallery-images:
         label: Gallery Images
         icon: collections
@@ -91,8 +91,9 @@ _array_structures:
         icon: collections
         value:
           background-image: 
-            aspect-ratio: 
-            content_html:
+          aspect-ratio: 
+          content_html:
+        
 
 _select_data:
   banner-height:
