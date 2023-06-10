@@ -1,6 +1,6 @@
 ---
 layout: modular-post
-title: My first post
+title: Adventures in Paris
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum,
   ab, eum dolore perspiciatis tenetur alias aspernatur
@@ -9,7 +9,7 @@ featured: true
 categories:
   - travel
   - life
-featured_image: https://source.unsplash.com/random?sig=7
+featured_image: /uploads/travel/travel-1.jpg 
 page_blocks:
   - _id: banner
     title: Image Banner
@@ -17,7 +17,7 @@ page_blocks:
     sub-heading: And this is your sub-heading
     text-color: text-light
     banner-height: min-h-60
-    banner-image: https://source.unsplash.com/random?sig=7
+    banner-image: /uploads/travel/travel-1.jpg
     background-position: bg-center
     text-position: items-center
   - _id: cta
@@ -36,13 +36,13 @@ page_blocks:
     number-of-columns-desktop:
       - 'grid-cols-3'
     columns:
-      - background-image: https://source.unsplash.com/random?sig=7
+      - background-image: /uploads/travel/travel-1.jpg
         aspect-ratio: aspect-square
         content_html:
       - background-image:
         aspect-ratio:
         content_html: <p>This is some text</p>
-      - background-image: https://source.unsplash.com/random?sig=7
+      - background-image: /uploads/travel/travel-1.jpg
         aspect-ratio: aspect-square
         content_html:
   - _id: gallery
@@ -50,19 +50,19 @@ page_blocks:
     gallery-images:
       - column-size: 1
         aspect-ratio: aspect-square
-        image-path: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
+        image-path: /uploads/travel/travel-1.jpg
       - column-size: 1
         aspect-ratio: square
-        image-path: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
+        image-path: /uploads/travel/travel-1.jpg
       - column-size: 1
         aspect-ratio: square
-        image-path: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
+        image-path: /uploads/travel/travel-1.jpg
       - column-size: 1
         aspect-ratio: square
-        image-path: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
+        image-path: /uploads/travel/travel-1.jpg
       - column-size: 1
         aspect-ratio: square
-        image-path: /uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg
+        image-path: /uploads/travel/travel-1.jpg
 seo:
   title:
   description:

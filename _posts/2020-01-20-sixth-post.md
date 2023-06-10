@@ -1,11 +1,11 @@
 ---
 layout: post
-title: My sixth post 
+title: How to explore the desert 
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, eum dolore perspiciatis tenetur alias aspernatur
 author: James
 featured: true
 categories: [self care]
-featured_image: https://source.unsplash.com/random?sig=2
+featured_image: /uploads/travel/travel-2.jpg
 seo: 
     title: 
     description: 

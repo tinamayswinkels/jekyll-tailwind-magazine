@@ -9,7 +9,7 @@ featured: true
 categories:
   - self care
   - food
-featured_image: https://source.unsplash.com/random?sig=10
+featured_image: /uploads/travel/travel-1.jpg
 seo:
   title:
   description:
@@ -23,10 +23,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, eum dolore perspiciatis tenetur alias aspernatur impedit fugiat quos esse accusamus nesciunt accusantium labore provident hic ex est?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, eum dolore perspiciatis tenetur alias aspernatur impedit fugiat quos esse accusamus nesciunt accusantium labore provident hic ex est?
 
-![](/uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg){: .one-third-image width="3182" height="3181"}![](/uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg){: .one-third-image width="3182" height="3181"}![](/uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg){: .one-third-image width="3182" height="3181"}
+![](/uploads/travel/travel-1.jpg){: .one-third-image width="3182" height="3181"}![](/uploads/travel/travel-1.jpg){: .one-third-image width="3182" height="3181"}![](/uploads/travel/travel-1.jpg){: .one-third-image width="3182" height="3181"}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, eum dolore perspiciatis tenetur alias aspernatur impedit fugiat quos esse accusamus nesciunt accusantium labore provident hic ex est?
 
-![](/uploads/dee-copper-and-wild-1lbmrktx8gq-unsplash.jpg){: .float-left-image width="3182" height="3181"}Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, eum dolore perspiciatis tenetur alias aspernatur impedit fugiat quos esse accusamus nesciunt accusantium labore provident hic ex est? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, eum dolore perspiciatis tenetur alias aspernatur impedit fugiat quos esse accusamus nesciunt accusantium labore provident hic ex est?
+![](/uploads/travel/travel-1.jpg){: .float-left-image width="3182" height="3181"}Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, eum dolore perspiciatis tenetur alias aspernatur impedit fugiat quos esse accusamus nesciunt accusantium labore provident hic ex est? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, eum dolore perspiciatis tenetur alias aspernatur impedit fugiat quos esse accusamus nesciunt accusantium labore provident hic ex est?
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, eum dolore perspiciatis tenetur alias aspernatur impedit fugiat quos esse accusamus nesciunt accusantium labore provident hic ex est?

@@ -1,27 +1,21 @@
 
-<!-- Since the post loop item uses a column class, make sure the parent container has a grid -->
 
-<div class="col-4_xs-12 post-item padded-1">
-    <a href="{{ post.url }}" class="bg-image square" style="background-image:url( '{{ post.featured_image }}' );"></a>
-    <div class="padded-t-1 padded-b-1">
+<a class="p-2 break-inside-avoid block mb-4" href="{{ post.url }}">
+    <div class="bg-cover aspect-square" 
+    style="background-image:url( '{{ post.featured_image }}' );"></div>
+    <div class="p-4 relative -top-4 left-4 bg-white">
         
+        <p>
         {% for item in post.categories %}
-            <span class="tag"> {{item}} </span>
+            <span class="tag mr-2"> {{item}} </span>
         {% endfor %}
-
-        <h2 class="margin-t-1"> {{ post.title }} </h2>
-        <p> {{ post.description }} </p>
-        <a href="{{ post.url }}" class="subtle-button"> Read More </a>
+        </p>
+        <h2 class="mt-1 font-serif text-3xl"> {{ post.title }} </h2>
+        <hr class="border-rose-600 w-10 border-t-2 mt-4 mb-2"> 
+        <p class="uppercase text-zinc-600 text-xs tracking-wide"> 
+            <span class="font-bold mr-1">{{ post.author }}</span> {{ post.date | date_to_string }} 
+        </p>
 
     </div>
-</div>
+</a>
 
-
-<!-- Want the categories to link to their archive page? Replace the span with a link like this. 
-
-{% for item in post.categories %}
-    <span class="tag"> {{item}} </span>
-{% endfor %}
-
-
--->

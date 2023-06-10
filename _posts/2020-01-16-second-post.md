@@ -5,7 +5,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sun
 author: Daniel
 featured: true
 categories: [food]
-featured_image: https://source.unsplash.com/random?sig=6
+featured_image: /uploads/travel/travel-6.jpg
 seo: 
     title: 
     description: 
