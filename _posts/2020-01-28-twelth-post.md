@@ -10,6 +10,7 @@ categories:
     - life
     - self care
 featured_image: https://source.unsplash.com/random?sig=10
+page_blocks:
 seo:
     title:
     description:
