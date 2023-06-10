@@ -58,7 +58,7 @@ _array_structures:
         background-color: 
         text-color: 
         button-color: 
-        cta-shortcode:
+        cta-shortcode: 
     - label: CTA
       icon: image
       value:
@@ -94,7 +94,7 @@ _array_structures:
       aspect-ratio: square
       image-path: /assets/images/placeholder.jpg
   columns:
-    label: Gallery Images
+    label: Columns
     icon: collections
     value:
       background-image: 
@@ -102,7 +102,7 @@ _array_structures:
       content_html:
         
 
-_select_data:
+_inputs:
   banner-heights:
     - min-h-60
     - min-h-70
@@ -151,10 +151,8 @@ _select_data:
     md/:col-span-2: 2
     md/:col-span-3: 3
     md/:col-span-4: 4
-
-  
-
-_inputs:
   cta-shortcode: 
     type: select
-    values: data.cta
+    options:
+      values: _select_data.cta
+    
