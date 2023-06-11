@@ -5,6 +5,9 @@ collections:
   archives: 
     output: true
     permalink: /:title
+  products: 
+    output: true
+    permalink: /shop/:title
 
 
 data_config: 
