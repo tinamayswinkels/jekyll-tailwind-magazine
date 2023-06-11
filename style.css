@@ -8,6 +8,12 @@
 
 /* Custom CSS */
 
+@layer components {
+    .flex-center {
+      @apply flex justify-center items-center;
+    }
+  }
+
 /* ----------- CSS RESET --------- */
 
 * {
