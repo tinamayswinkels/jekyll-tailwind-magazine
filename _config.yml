@@ -2,18 +2,16 @@ collections:
   posts:
     output: true
     permalink: /posts/:year/:slug
-  archives: 
+  archives:
     output: true
     permalink: /:title
-  products: 
+  products:
     output: true
     permalink: /shop/:title
 
-
-data_config: 
+data_config:
   cta:
     path: data/cta.yml
-
 
 _options:
   content:
@@ -37,7 +35,7 @@ _options:
     underline: true
     strike: true
     image: true
-    
+
 page_blocks: []
 
 _array_structures:
@@ -58,18 +56,21 @@ _array_structures:
       value:
         _id: cta-global
         title: CTA Global
-        background-color: 
-        text-color: 
-        button-color: 
-        cta-shortcode: 
+        background-color:
+        text-color:
+        button-color:
+        cta-shortcode:
+          options:
+            - web-dev
+            - photography
     - label: CTA
       icon: image
       value:
         _id: cta
         title: CTA
-        background-color: 
-        text-color: 
-        button-color: 
+        background-color:
+        text-color:
+        button-color:
         heading:
         button-url:
         button-text:
@@ -78,7 +79,7 @@ _array_structures:
       value:
         _id: flexible-columns
         title: Flexible Columns
-        section-styles: 
+        section-styles:
         number-of-columns-mobile:
         number-of-columns-dekstop:
         columns:
@@ -87,7 +88,7 @@ _array_structures:
       value:
         _id: gallery
         title: Flexible Columns
-        gallery-images: 
+        gallery-images:
 
   gallery-images:
     label: Gallery Images
@@ -100,10 +101,9 @@ _array_structures:
     label: Columns
     icon: collections
     value:
-      background-image: 
-      aspect-ratio: 
+      background-image:
+      aspect-ratio:
       content_html:
-        
 
 _inputs:
   banner-heights:
@@ -118,24 +118,24 @@ _inputs:
     - bg-left
     - bg-right
     - bg-top
-  text-positions: 
+  text-positions:
     items-start: top
     items-center: middle
     items-end: bottom
-  background-colors: 
+  background-colors:
     - bg-light
     - bg-featured
     - bg-dark
     - none
-  text-colors: 
+  text-colors:
     - text-light
     - text-dark
     - text-featured
-  button-colors: 
+  button-colors:
     - btn-light
     - btn-dark
     - btn-featured
-  number-of-columns-mobile: 
+  number-of-columns-mobile:
     - 1
     - 2
     - 3
@@ -149,13 +149,12 @@ _inputs:
     aspect-portrait: portrait
     aspect-square: square
     aspect-landscape: landscape
-  column-size: 
+  column-size:
     col-span-1: 1
     md/:col-span-2: 2
     md/:col-span-3: 3
     md/:col-span-4: 4
-  cta-shortcode: 
+  cta-shortcode:
     type: select
     options:
       values: _select_data.cta
-    
