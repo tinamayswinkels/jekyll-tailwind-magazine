@@ -63,12 +63,6 @@ page_blocks:
       - column-size: 1
         aspect-ratio: square
         image-path: /uploads/travel/travel-1.jpg
-  - _id: cta-global
-    title: CTA Global
-    background-color: '#227722'
-    text-color: '#000000'
-    button-color:
-    cta-shortcode:
 seo:
   title:
   description:
