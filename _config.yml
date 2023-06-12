@@ -60,9 +60,6 @@ _array_structures:
         text-color:
         button-color:
         cta-shortcode:
-          options:
-            - web-dev
-            - photography
     - label: CTA
       icon: image
       value:
