@@ -1,8 +1,9 @@
 
 
 <a class="p-2 break-inside-avoid block mb-4" href="{{ post.url }}">
-    <div class="bg-cover aspect-square" 
-    style="background-image:url( '{{ post.featured_image }}' );"></div>
+    <div class="bg-cover aspect-square relative">
+    <img src="{{ post.featured_image }}" alt="{{post.title}}" class="absolute inset-0 w-full h-full object-cover">
+  </div>
     <div class="p-4 relative -top-4 left-4 bg-white">
         
         <p>
