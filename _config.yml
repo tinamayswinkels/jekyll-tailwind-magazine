@@ -9,10 +9,6 @@ collections:
     output: true
     permalink: /shop/:title
 
-data_config:
-  cta:
-    path: data/cta.yml
-
 _options:
   content:
     styles: /editor.css
@@ -51,15 +47,6 @@ _array_structures:
         banner-image: /assets/images/placeholder.jpg
         background-position: bg-center
         text-position: items-center
-    - label: CTA Global
-      icon: image
-      value:
-        _id: cta-global
-        title: CTA Global
-        background-color:
-        text-color:
-        button-color:
-        cta-shortcode:
     - label: CTA
       icon: image
       value:
@@ -151,7 +138,3 @@ _inputs:
     md/:col-span-2: 2
     md/:col-span-3: 3
     md/:col-span-4: 4
-  cta-shortcode:
-    type: select
-    options:
-      values: _select_data.cta.shortcode

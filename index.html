@@ -9,8 +9,9 @@ seo:
   keywords:
   hide-from-google: false
 ---
-
-
+{% for thing in site._select_data.cta %}
+    {{thing.shortcode}}
+{% endfor %}
 <!------------------------ Featured blog loop ------------------------>
 <section class="p-5p">
 
