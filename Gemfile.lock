@@ -9,11 +9,14 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     eventmachine (1.2.7-x86-mingw32)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw32)
     ffi (1.15.5-x86-mingw32)
     forwardable-extended (2.6.0)
     google-protobuf (3.23.2-arm64-darwin)
+    google-protobuf (3.23.2-x64-mingw32)
     google-protobuf (3.23.2-x86-mingw32)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
@@ -58,6 +61,8 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.63.3-arm64-darwin)
       google-protobuf (~> 3.23)
+    sass-embedded (1.63.3-x64-mingw32)
+      google-protobuf (~> 3.23)
     sass-embedded (1.63.3-x86-mingw32)
       google-protobuf (~> 3.23)
     terminal-table (3.0.2)
@@ -67,10 +72,11 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x64-mingw32
   x86-mingw32
 
 DEPENDENCIES
   jekyll
 
 BUNDLED WITH
-   2.3.22
+   2.4.13
