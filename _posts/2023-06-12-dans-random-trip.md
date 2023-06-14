@@ -15,16 +15,16 @@ page_blocks:
     title: Image Banner
     heading: This is your heading
     sub-heading: And this is your sub-heading
-    text-color: text-light
+    text-color: '#000000'
     banner-height: min-h-60
     banner-image: /uploads/travel/travel-1.jpg
     background-position: bg-center
     text-position: items-center
   - _id: cta
     title: CTA
-    background-color: bg-dark
-    text-color: text-light
-    button-color: btn-dark
+    background-color: '#000000'
+    text-color: '#ffffff'
+    button-color: '#000000'
     heading: Join our free community for photographers
     button-url: https://google.com
     button-text: Register Now
@@ -38,9 +38,9 @@ page_blocks:
     columns:
       - background-image: /uploads/travel/travel-1.jpg
         aspect-ratio: aspect-square
-        content_html:
-      - background-image:
-        aspect-ratio:
+        content_html: <p>test</p>
+      - background-image: /uploads/travel/travel-3.jpg
+        aspect-ratio: square
         content_html: <p>This is some text</p>
       - background-image: /uploads/travel/travel-1.jpg
         aspect-ratio: aspect-square
