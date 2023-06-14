@@ -158,4 +158,4 @@ _inputs:
     cta-shortcode:
       type: select
       options:
-        values: _select_data.site-settings.global-cta-options
+        values: site.data.site-settings.global-cta-options
