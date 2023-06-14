@@ -50,6 +50,13 @@ page_blocks:
                 background-image:
                 aspect-ratio:
                 content_html: <p>A third demo text.</p>
+    -
+        _id: cta-global
+        title: CTA Global
+        background-color:
+        text-color:
+        button-color:
+        cta-shortcode:
 seo:
     title: The page SEO title
     description: The page SEO description
