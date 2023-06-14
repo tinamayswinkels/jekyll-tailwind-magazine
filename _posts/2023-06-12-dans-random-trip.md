@@ -4,7 +4,7 @@ title: Dans random trip
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum,
   ab, eum dolore perspiciatis tenetur alias aspernatur
-author: "`dan"
+author: '`dan'
 featured: true
 categories:
   - travel
@@ -63,6 +63,12 @@ page_blocks:
       - column-size: 1
         aspect-ratio: square
         image-path: /uploads/travel/travel-1.jpg
+  - _id: cta-global
+    title: CTA Global
+    background-color: '#1a6c06'
+    text-color: '#cebcbc'
+    button-color: '#d62525'
+    cta-shortcode: web-dev
 seo:
   title:
   description:
