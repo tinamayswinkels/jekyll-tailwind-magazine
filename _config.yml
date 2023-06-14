@@ -10,8 +10,8 @@ collections:
     permalink: /shop/:title
 
 data_config:
-  cta:
-    path: data/cta.yml
+  site-settings:
+    cta-shortcode: true
 
 _options:
   content:
@@ -107,7 +107,7 @@ _inputs:
     type: select
     options:
       values:
-        [data.site-settings.global-cta-options]
+        data.site-settings.global-cta-options
 
         # - web-dev
         # - photography
