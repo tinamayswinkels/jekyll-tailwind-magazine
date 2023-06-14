@@ -106,7 +106,7 @@ _inputs:
   cta-shortcode:
     type: select
     options:
-      values: _select_data.cta
+      values: site.data.site-settings.global-cta-options
   banner-heights:
     - min-h-60
     - min-h-70
@@ -155,7 +155,3 @@ _inputs:
     md/:col-span-2: 2
     md/:col-span-3: 3
     md/:col-span-4: 4
-    cta-shortcode:
-      type: select
-      options:
-        values: site.data.site-settings.global-cta-options
