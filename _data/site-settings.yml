@@ -10,7 +10,7 @@ social:
   instagram_username:
   facebook_url:
   twitter_username:
-global-cta-options:
+cta-shortcode:
   - web-dev
   - photography
 design:

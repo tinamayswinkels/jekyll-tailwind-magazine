@@ -105,9 +105,8 @@ _array_structures:
 _inputs:
   cta-shortcode:
     type: select
-    # options:
-    #   values:
-    #     data.site-settings.global-cta-options
+    options:
+      values: data.site-settings.cta-shortcode
 
     # - web-dev
     # - photography
