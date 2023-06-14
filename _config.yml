@@ -155,3 +155,7 @@ _inputs:
     md/:col-span-2: 2
     md/:col-span-3: 3
     md/:col-span-4: 4
+    cta-shortcode:
+      type: select
+      options:
+        values: _select_data.site-settings.global-cta-options
