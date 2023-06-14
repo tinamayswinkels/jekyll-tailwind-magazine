@@ -31,14 +31,14 @@ seo:
                 <!-- Text container  -->
                 <div class="p-4 relative -top-4 left-4 bg-white">
                     
-                    <p class="uppercase text-zinc-600 text-xs tracking-wide">
+                    <p>
                     {% for item in post.categories %}
-                        <span class="tag mr-2"> {{item}} </span>
+                        <span class="tag"> {{item}} </span>
                     {% endfor %}
                     </p>
                     <h2 class="mt-1 font-serif text-3xl"> {{ post.title }} </h2>
-                    <hr class="border-rose-600 w-10 border-t-2 mt-4 mb-2"> 
-                    <p class="uppercase text-zinc-600 text-xs tracking-wide"> 
+                    <hr class="border-rose-600 w-10 border-t-2 mt-4 mb-3"> 
+                    <p class="tag"> 
                         <span class="font-bold mr-1">{{ post.author }}</span> {{ post.date | date_to_string }} 
                     </p>
 

@@ -1,42 +1,41 @@
-/* ----------- Color Variables --------- */
-/* Looking for the color variables? They have been moved to the inline-styles file in the _includes folder, and pull variables from the site-settings folder in the _data folder.  */
 
-/* Tailwind */
+/* ----------- Import Tailwind -----*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Custom CSS */
 
-@layer components {
-    .flex-center {
-      @apply flex justify-center items-center;
+/* ----------- Default Styles --------- */
+
+@layer base {
+
+    h1, h2, h3, h4  {
+        @apply font-serif mb-[0.5em];
     }
+
+    h1 {
+        @apply text-2xl;
+    }
+    h2 {
+        @apply text-xl;
+    }
+    h3 {
+        @apply text-xl;
+    }
+
+    h3 {
+        @apply text-lg;
+    }
+
   }
 
-/* ----------- CSS RESET --------- */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    transition: color 0.5s, background-color 0.5s, width 0.5s;
-}
-  
-img { max-width: 100%; height: auto; }
+/* ----------- ADDITIONAL COMPONENTS  --------- */
 
-section { position: relative; }
+@layer components {
 
-div {
-    background-size: cover;
-    background-position: center;
-}
+    .tag {
+        @apply text-sm inline-block p-1 uppercase tracking-wide text-stone-600;
+    }
 
-.tag {
-
-    @apply uppercase text-zinc-600 text-xs tracking-wide;
-}
-
-body {
-    font-weight: 300;
 }
