@@ -106,7 +106,10 @@ _inputs:
   cta-shortcode:
     type: select
     options:
-      values: data.site-settings.global-cta-options
+      values:
+        - web-dev
+        - photography
+      # data.site-settings.global-cta-options
   banner-heights:
     - min-h-60
     - min-h-70
