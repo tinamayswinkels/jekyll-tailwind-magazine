@@ -107,9 +107,10 @@ _inputs:
     type: select
     options:
       values:
-        - web-dev
-        - photography
-      # data.site-settings.global-cta-options
+        [data.site-settings.global-cta-options]
+
+        # - web-dev
+        # - photography
   banner-heights:
     - min-h-60
     - min-h-70
