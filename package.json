@@ -12,17 +12,6 @@
     "dev": "concurrently --kill-others \"npm run jekyll:dev\" \"npm run css:dev\"",
     "build": "npm run css:build && npm run jekyll:build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PollockCR/ioc-jekyll-tailwind.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PollockCR/ioc-jekyll-tailwind/issues"
-  },
-  "homepage": "https://github.com/PollockCR/ioc-jekyll-tailwind#readme",
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
