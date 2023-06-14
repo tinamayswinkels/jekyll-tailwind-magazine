@@ -1,8 +1,7 @@
-@ -1,23 +0,0 @@
 <section class="flex justify-center p-5p {{block.background-color}} {{block.text-color}}">
 
   {% assign active-cta == block.cta-shortcode %}
-  {% assign active-cta = site.data.cta | where_exp: "shortcode" == active-cta %}
+  {% assign active-cta = site.data.cta | where: "shortcode", active-cta %}
 
   <!-- Need to test this liquid -->
 
