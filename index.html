@@ -22,8 +22,13 @@ seo:
         {% for post in featured_posts limit:12 %}
 
             <a class="post-item p-2 break-inside-avoid block mb-4" href="{{ post.url }}">
-                <div class="bg-cover {% cycle 'aspect-square', 'aspect-portrait', 'aspect-landscape', %}" 
+
+                <!-- Background image -->
+                <div class="bg-cover 
+                {% cycle 'aspect-square', 'aspect-portrait', 'aspect-landscape' %}" 
                 style="background-image:url( '{{ post.featured_image }}' );"></div>
+
+                <!-- Text container  -->
                 <div class="p-4 relative -top-4 left-4 bg-white">
                     
                     <p class="uppercase text-zinc-600 text-xs tracking-wide">
